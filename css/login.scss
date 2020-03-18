@@ -1,0 +1,98 @@
+@import '_variabls';
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{    
+    // display: none;
+    margin-top: 64px;
+    .container{
+        width: 40%;
+        // border: 1px solid black;
+        margin:auto;
+        .nom-utilisateur{
+            // border: 1px solid gray;
+            background-color:$mainColor;
+            width: 100%;
+            margin: 8px 0;
+            .label-nom{
+                padding: 8px;
+                span{
+                    font-size: 16px;
+                    font-family: $mainFont;
+                }
+            }
+            input{
+                width: 100%;
+                border: none;
+                border-bottom: 2px solid gray;
+                background-color:$mainColor;
+                font-family: $mainFont;
+                font-size: 16px;
+            }
+        }
+        .Mot-de-pass{
+            // border: 1px solid gray;
+            background-color: $mainColor;
+            width: 100%;
+            margin: 8px 0;
+            .label-password{
+                padding: 8px;
+                span{
+                    font-size: 16px;
+                    font-family: $mainFont;
+                }
+            }
+            input{
+                width: 100%;
+                border: none;
+                border-bottom: 2px solid gray;
+                background-color: $mainColor;
+                font-family: $mainFont;
+                font-size: 16px;
+            }
+        }
+        button{
+            width: 100%;
+            padding: 8px;
+            margin: 16px 0;
+            background-color: $mainColor;
+            font-family: $mainFont;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            color: $secondColor;
+        }
+        .inscrire{
+            display: inline;
+        }
+    }
+}
+.inscription{
+    // display: none;
+    border: 1px solid black;
+    width: 60%;
+    form{
+        width: 60%;
+        margin: 24px auto;
+        font-family: $mainFont;
+
+        .field{
+            width: 100%;
+            margin: 8px 0;
+            background-color: $mainColor;
+            div{
+                padding: 8px;
+            }
+            input{
+                width: 100%;
+                border:none;
+                border-bottom: 2px solid gray;
+                background-color: $mainColor;
+                font-size: 16px;
+                padding: 0 8px;
+            }
+        }
+    }
+}
+

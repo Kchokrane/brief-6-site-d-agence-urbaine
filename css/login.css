@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  margin-top: 64px;
+}
+
+.login .container {
+  width: 40%;
+  margin: auto;
+}
+
+.login .container .nom-utilisateur {
+  background-color: #eaf4f9;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.login .container .nom-utilisateur .label-nom {
+  padding: 8px;
+}
+
+.login .container .nom-utilisateur .label-nom span {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login .container .nom-utilisateur input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid gray;
+  background-color: #eaf4f9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.login .container .Mot-de-pass {
+  background-color: #eaf4f9;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.login .container .Mot-de-pass .label-password {
+  padding: 8px;
+}
+
+.login .container .Mot-de-pass .label-password span {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login .container .Mot-de-pass input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid gray;
+  background-color: #eaf4f9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.login .container button {
+  width: 100%;
+  padding: 8px;
+  margin: 16px 0;
+  background-color: #eaf4f9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  color: #47a3d1;
+}
+
+.login .container .inscrire {
+  display: inline;
+}
+
+.inscription {
+  border: 1px solid black;
+  width: 60%;
+}
+
+.inscription form {
+  width: 60%;
+  margin: 24px auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.inscription form .field {
+  width: 100%;
+  margin: 8px 0;
+  background-color: #eaf4f9;
+}
+
+.inscription form .field div {
+  padding: 8px;
+}
+
+.inscription form .field input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid gray;
+  background-color: #eaf4f9;
+  font-size: 16px;
+  padding: 0 8px;
+}
