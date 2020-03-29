@@ -9,25 +9,25 @@ function myFunction (name){
       case 0:
         x.className = "cl1 ";
         y.className = "cl1c ";
-        z.className = "cl1c ";
+        z.className = "cl1c top ";
         t.className = "cl1c ";
          break;
       case 1:
         x.className = "cl1c";
         y.className = "cl1 ";
-        z.className = "cl1c ";
+        z.className = "cl1c top";
         t.className = "cl1c ";
          break;
       case 2:
        x.className = "cl1c ";
        y.className = "cl1c ";
-       z.className = "cl1 ";
+       z.className = "cl1  ";
        t.className = "cl1c ";
          break;  
       case 3:
         x.className = "cl1c ";
         y.className = "cl1c ";
-        z.className = "cl1c ";
+        z.className = "cl1c top";
         t.className = "cl1 ";
          break;    
       default:

@@ -1,5 +1,4 @@
 .cl{
-    background-color: thistle;
     border: 2px solid white;
     text-align: center;
     height: 600px;
@@ -7,9 +6,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 10px;
 }
 .cll{
-    background-color: thistle;
     border: 2px solid white;
     text-align: center;
     margin-top: 25px;
@@ -24,7 +23,6 @@
     -ms-flex: 0 0 30%;
     flex: 0 0 30%;
     max-width: 30%;
-    background-color: thistle;
     border: 2px solid white;
     text-align: center;
     height: 600px;
@@ -32,12 +30,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 10px;
 }
 .cl1c{
     -ms-flex: 0 0 22%;
     flex: 0 0 22%;
     max-width: 22%;
-    background-color: thistle;
     border: 2px solid white;
     text-align: center;
     height: 600px;
@@ -45,13 +43,37 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .container-xl h3 {
-    color: blue;
+    color:#f5f6fa;
     font-size: 15px;
     margin: 0;
 }
+.container-xl p{
+    color: #dcdde1;
+}
 .top{
     padding-top: 22px;
+}
+.cn{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+#a1{
+    background-image: url(../img/test2.jpg) ;
+    background-size: cover;
+}
+#a2{
+    background-image: url(../img/test.jpg) ;
+    background-size: cover;  
+}
+#a3{
+    background-image: url(../img/test3.jpg) ;
+    background-size: cover;  
+}
+#a4{
+    background-image: url(../img/test4.jpg) ;
+    background-size: cover;  
 }
