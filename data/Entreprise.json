@@ -1,0 +1,26 @@
+[
+     {
+          "nom": "departement 1",
+          "id": "1",
+          "chef_département": "zakaria",
+          "description": "345"
+     },
+     {
+          "nom": "departement 2",
+          "id": 3,
+          "chef_département": "kamal",
+          "description": "12121212"
+     },
+     {
+          "nom": "departement 3",
+          "id": 4,
+          "chef_département": "ahmed",
+          "description": "ahmed"
+     },
+     {
+          "nom": "jamal",
+          "id": 4,
+          "chef_département": "jamal",
+          "description": "jamal"
+     }
+]
